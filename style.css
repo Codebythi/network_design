@@ -1,0 +1,19 @@
+@charset "UTF-8";
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background: black;
+}
+/* --------------------------main--------------------------------------- */
+div{
+    margin: auto;
+    background: black url(imagens/1768550696386.png) center center no-repeat fixed;
+    background-size: scroll;
+    height: 400px;
+    width: 20vw;
+    padding: 200px 0px 0px 0px;
+    display: inline block;
+}
+/* ----------------------------------------------------------------------- */
