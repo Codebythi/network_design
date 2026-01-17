@@ -6,14 +6,26 @@
 body{
     background: black;
 }
+/* -----------------------------header--------------------- */
+nav{
+    width: 50px;
+    height: 50px;
+}
+
+nav>a>img{
+    width: 50px;
+    height: 50px;
+    margin: 100px 0px 0px 1650px;
+}
+/* ----------------------------------------------------------- */
 /* --------------------------main--------------------------------------- */
 div{
     margin: auto;
-    background: black url(imagens/1768550696386.png) center center no-repeat fixed;
-    background-size: scroll;
-    height: 400px;
-    width: 20vw;
-    padding: 200px 0px 0px 0px;
+    background: black url(imagens/1768550696386.png) center center no-repeat scroll;
+    background-size: 100%;
+    height: 500px;
+    width: 25vw;
+    margin: 110px 700px 0px 650px;
     display: inline block;
 }
 /* ----------------------------------------------------------------------- */
