@@ -3,6 +3,7 @@
     padding: 0px;
     margin: 0px;
 }
+/* para centralizar um elemento com position sem alterar a fixação dele do centro nois usamos top: 50%; left: 50%; e transforme: translate(-50%, -50%); */
 body{
     background: black url(imagens/1000006968.jpg) center center no-repeat fixed;
     background-size: cover;
