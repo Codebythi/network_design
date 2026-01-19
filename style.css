@@ -4,11 +4,12 @@
     margin: 0px;
 }
 body{
-    background: black url(imagens/1000006959.jpg) center center no-repeat fixed;
+    background: black url(imagens/1000006968.jpg) center center no-repeat fixed;
     background-size: cover;
     position: relative;
     height: 74vh;
     background-attachment: fixed;
+    
 }
 /* -----------------------------header--------------------- */
 nav{
