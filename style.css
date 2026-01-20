@@ -8,11 +8,11 @@
 /* para criar uma animação nois usamos transforme: translate(-3px, -3px); esse valor pode variar e
    trasition: transform(1s); tbm podemos fazer essa alteração em outras modificações do elemento basta colocar o nome dele */
 /* para esconder a barra de rolagem nois usamos ::-webkit-scrollbar{} no arquivo css e alteramos width e o height para 0px pra cada alteração*/
-body{
+body,html{
     background: black url(imagens/1000006968.jpg) center center no-repeat fixed;
     background-size: cover;
     position: relative;
-    height: 74vh;
+    height: 76vh;
     background-attachment: fixed;
     
 }
@@ -21,13 +21,13 @@ nav{
     position: absolute;
     right: 2vw;
     width: 60px;
-    bottom: 30vh;
+    bottom: 29vh;
+    margin: 15px;
 }
 a.img1{
     height: 48px;
     display: inline-block;
     margin: 15px;
-    width: 85%;
     border-radius: 100%;
     width: 50px;
 }
@@ -59,9 +59,9 @@ nav>a:hover{
 /* ----------------------------------------------------------- */
 /* --------------------------main--------------------------------------- */
 div#phone{
-    height: 632px;
+    height: 300px;
     max-width: 220px;
-    margin: 100px auto 30px auto ;
+    margin: 100px auto 30px auto;
     position: relative;
 }
 div#phone>img{

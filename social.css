@@ -3,11 +3,12 @@
     padding: 0px;
     margin: 0px;
 }
-body{
+body, html{
     width: 100vw;
+    height: 100vh;
 }
 img{
-    background-size:  100vw;
+    background-size:  cover;
 }
 ::-webkit-scrollbar{
     height: 0px;
@@ -15,15 +16,24 @@ img{
 }
 a{
     color: white;
-    font: 100 30px 'vizualize', arial, helvetica, sans-serif;
+    font: normal 20px 'vizualize', arial, helvetica, sans-serif;
     text-decoration: none;
+}
+a:hover{
+    font-size: 20.8px;
+    transition: font-size 0.5s;
+}
+a:active{
+    font-size: 15px;
+    transition: font-size 1s;
 }
 footer{
     background: blueviolet;
     text-align: center;
     padding: 10px;
+    text-shadow: 1px 1px 3px black;
 }
 @font-face {
     font-family: 'vizualize';
-    src: url('fontes/Coolvetica\ Rg.otf') format('opentype');
+    src: url('fontes/upheavtt.ttf') format('truetype');
 }
