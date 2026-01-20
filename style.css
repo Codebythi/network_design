@@ -7,7 +7,7 @@
 /* nunca junte dois iframes dentro  de um só elemento, sempre precisa está em um arquivo separado */
 /* para criar uma animação nois usamos transforme: translate(-3px, -3px); esse valor pode variar e
    trasition: transform(1s); tbm podemos fazer essa alteração em outras modificações do elemento basta colocar o nome dele */
-/* para esconder a barra de rolagem nois usamos ::-webkit-scrollbar{} no arquivo css e alteramos width e o height para 0px */
+/* para esconder a barra de rolagem nois usamos ::-webkit-scrollbar{} no arquivo css e alteramos width e o height para 0px pra cada alteração*/
 body{
     background: black url(imagens/1000006968.jpg) center center no-repeat fixed;
     background-size: cover;
