@@ -1,0 +1,29 @@
+@charset "UTF-8";
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    width: 100vw;
+}
+img{
+    background-size:  100vw;
+}
+::-webkit-scrollbar{
+    height: 0px;
+    width: 0px;
+}
+a{
+    color: white;
+    font: 100 30px 'vizualize', arial, helvetica, sans-serif;
+    text-decoration: none;
+}
+footer{
+    background: blueviolet;
+    text-align: center;
+    padding: 10px;
+}
+@font-face {
+    font-family: 'vizualize';
+    src: url('fontes/Coolvetica\ Rg.otf') format('opentype');
+}
