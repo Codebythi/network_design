@@ -37,7 +37,7 @@ nav>a>img{
 }
 a.img2{
     margin: 15px;
-    height: 33.7px;
+    height: 34px;
     display: inline-block;
     border-radius: 25%;
 }
@@ -58,7 +58,7 @@ nav>a{
     box-shadow: 1px 1px 5px black;
 }
 nav>a:hover{
-    border: 1px solid white;
+    border: 2px solid white;
     transform: translate(-4px, -4px);
     transition: transform 0.5s, border 0.5s;
     box-shadow: 5px 5px 10px black;
