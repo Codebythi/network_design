@@ -21,11 +21,11 @@ a{
     text-decoration: none;
 }
 a:hover{
-    font-size: 20.8px;
+    font-size: 22px;
     transition: font-size 0.5s;
 }
 a:active{
-    font-size: 15px;
+    font-size: 17px;
     transition: font-size 0.5s;
 }
 footer{
