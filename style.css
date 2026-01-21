@@ -9,7 +9,7 @@
    trasition: transform(1s); tbm podemos fazer essa alteração em outras modificações do elemento basta colocar o nome dele */
 /* para esconder a barra de rolagem nois usamos ::-webkit-scrollbar{} no arquivo css e alteramos width e o height para 0px pra cada alteração*/
 body,html{
-    background: black url(imagens/1000006968.jpg) center center no-repeat fixed;
+    background: black url(imagens/1000007066.jpg) center center no-repeat fixed;
     background-size: cover;
     position: relative;
     height: 76vh;
@@ -21,7 +21,7 @@ nav{
     position: absolute;
     right: 2vw;
     width: 60px;
-    bottom: 29vh;
+    bottom: 25vh;
     margin: 15px;
 }
 a.img1{
@@ -58,7 +58,7 @@ nav>a{
     box-shadow: 1px 1px 5px black;
 }
 nav>a:hover{
-    border: 1.5px solid white;
+    border: 1px solid white;
     transform: translate(-4px, -4px);
     transition: transform 0.5s, border 0.5s;
     box-shadow: 5px 5px 10px black;
