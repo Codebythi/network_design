@@ -53,7 +53,7 @@ nav>a{
 nav>a:hover{
     border: 2px solid white;
     transform: translate(-4px, -4px);
-    transition: transform 1s, border 1s;
+    transition: transform 0.5s, border 0.5s;
     box-shadow: 5px 5px 10px black;
 }
 /* ----------------------------------------------------------- */
@@ -70,7 +70,7 @@ div#phone>img{
     position: absolute;
 }
 iframe.if{
-    width: 87%;
+    width: 87.5%;
     position: absolute;
     top: 30px;
     left: 14px;

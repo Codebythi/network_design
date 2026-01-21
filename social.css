@@ -9,7 +9,7 @@ body, html{
     background: blueviolet;
 }
 img{
-    background-size:  cover;
+    width: 195px;
 }
 ::-webkit-scrollbar{
     height: 0px;
@@ -26,7 +26,7 @@ a:hover{
 }
 a:active{
     font-size: 15px;
-    transition: font-size 1s;
+    transition: font-size 0.5s;
 }
 footer{
     background: blueviolet;
