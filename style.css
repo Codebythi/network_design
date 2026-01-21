@@ -25,7 +25,7 @@ nav{
     margin: 15px;
 }
 a.img1{
-    height: 48px;
+    height: 49px;
     display: inline-block;
     margin: 15px;
     border-radius: 100%;
@@ -37,7 +37,7 @@ nav>a>img{
 }
 a.img2{
     margin: 15px;
-    height: 34px;
+    height: 33.7px;
     display: inline-block;
     border-radius: 25%;
 }
@@ -47,11 +47,18 @@ a.img3{
     display: inline-block;
     border-radius: 25%;
 }
+a.img4{
+    height: 48px;
+    display: inline-block;
+    margin: 15px;
+    border-radius: 100%;
+    width: 50px;
+}
 nav>a{
     box-shadow: 1px 1px 5px black;
 }
 nav>a:hover{
-    border: 2px solid white;
+    border: 1.5px solid white;
     transform: translate(-4px, -4px);
     transition: transform 0.5s, border 0.5s;
     box-shadow: 5px 5px 10px black;
@@ -61,7 +68,7 @@ nav>a:hover{
 div#phone{
     height: 300px;
     max-width: 220px;
-    margin: 100px auto 30px auto;
+    margin: 100px auto 100px auto;
     position: relative;
 }
 div#phone>img{
