@@ -8,6 +8,17 @@
 /* para criar uma animação nois usamos transforme: translate(-3px, -3px); esse valor pode variar e
    trasition: transform(1s); tbm podemos fazer essa alteração em outras modificações do elemento basta colocar o nome dele */
 /* para esconder a barra de rolagem nois usamos ::-webkit-scrollbar{} no arquivo css e alteramos width e o height para 0px pra cada alteração*/
+/* ------------animando---------------- */
+/* para criar o pseudoelemento nois usamos o content: ""; */
+/* para as configurações do pseudoclasse after funcionar dentro de um elemento especifico nois usamos position relative no elemento e absolute no after */
+/* para criar um atalho pra uma borda automatica nois usamos o inset: 0; dps usamos o border normal pois o inset só posciona a borda */
+/* para animar a borda de um jeito suave nois usamos o opacity 0.5s; no transition pois deixa a borda invicivel e aparecendo aos poucos */
+/* para animação n quebra ao click nois usamos pointer-events: none; */
+/* sempre use o trasition dentro do elemento q vc quer animar */
+/* e por fim para mostra a borda quando o mouse passa nois colocamos um after dentro de um hover e opacity , exemplo: a:hover::after{
+opacity: 1;
+} */
+
 body,html{
     background: black url(imagens/1000007066.jpg) center center no-repeat fixed;
     background-size: cover;
@@ -54,29 +65,27 @@ a.img4{
     border-radius: 100%;
     width: 50px;
 }
-nav > a {
+nav > a{
     position: relative;
     box-shadow: 1px 1px 5px black;
-    transition: transform 0.5s, box-shadow 0.5s;
+    transition: box-shadow 0.5s, transform 1s;
 }
-
-nav > a::after {
+nav > a::after{
     content: "";
     position: absolute;
     inset: 0;
-    border: 2.5px solid white;
+    border: 2.3px solid white;
     border-radius: inherit;
     opacity: 0;
     pointer-events: none;
-    transition: opacity 1.5s;
+    transition: opacity 1s;
 }
-
-nav > a:hover {
-    transform: translate(-5px, -5px);
+nav > a:hover{
     box-shadow: 5px 5px 10px black;
+    transform: translate(-7px, -7px);
+    transition: box-shadow 0.5s, transform 0.5s;
 }
-
-nav > a:hover::after {
+nav > a:hover::after{
     opacity: 1;
 }
 /* ----------------------------------------------------------- */
