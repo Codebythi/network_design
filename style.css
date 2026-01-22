@@ -57,7 +57,7 @@ a.img4{
 nav>a{
     box-shadow: 1px 1px 5px black;
     outline: 0 solid white;
-    transition: transform 1s, outline 1s;
+    transition: transform 1s, outline 0.1s;
 }
 nav>a:hover{
     border: 1.5px solid white;
