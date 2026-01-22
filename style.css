@@ -20,16 +20,16 @@ body,html{
 nav{
     position: absolute;
     right: 2vw;
-    width: 66px;
+    width: 60px;
     bottom: 25vh;
     margin: 15px;
 }
 a.img1{
-    height: 50.5px;
+    height: 49px;
     display: inline-block;
     margin: 15px;
     border-radius: 100%;
-    width: 53px;
+    width: 50px;
 }
 nav>a>img{
     min-width: 50px;
@@ -37,31 +37,30 @@ nav>a>img{
 }
 a.img2{
     margin: 15px;
-    height: 36px;
+    height: 34px;
     display: inline-block;
     border-radius: 25%;
 }
 a.img3{
     margin: 15px;
-    height: 50.8px;
+    height: 48px;
     display: inline-block;
     border-radius: 25%;
 }
 a.img4{
-    height: 50.5px;
+    height: 48px;
     display: inline-block;
     margin: 15px;
     border-radius: 100%;
-    width: 52px;
+    width: 50px;
 }
 nav>a{
     box-shadow: 1px 1px 5px black;
+    transition: transform 0.5s, outline 1s, box-shadow 0.5s;
 }
 nav>a:hover{
-    box-sizing: border-box;
-    border: 2px solid white;
+    outline: 2px solid white;
     transform: translate(-4px, -4px);
-    transition: transform 0.5s, border 0.5s;
     box-shadow: 5px 5px 10px black;
 }
 /* ----------------------------------------------------------- */
