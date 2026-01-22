@@ -17,7 +17,8 @@
 /* sempre use o trasition dentro do elemento q vc quer animar */
 /* e por fim para mostra a borda quando o mouse passa nois colocamos um after dentro de um hover e opacity , exemplo: a:hover::after{
 opacity: 1;
-} */
+}
+socorro */
 
 body,html{
     background: black url(imagens/1000007066.jpg) center center no-repeat fixed;
